@@ -1,0 +1,48 @@
+.button {
+
+    width: 150px;
+    padding: 1rem 3rem;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 19px;
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #7C5FB5;
+
+    text-transform: uppercase;
+
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 450ms ease-in-out;
+
+}
+
+.button:hover {
+
+    box-shadow: 0 0 8px 0 #8868C8 inset, 0 0 8px 4px #8868C8;
+
+}
+
+
+
+
+.linkedin {
+    background-image: url('../assets/linkedin.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-x: 25px;
+    background-position-y: 11px;
+
+}
+
+.github {
+    background-image: url('../assets/github.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 23px;
+    background-position-y: 12px;
+
+
+}

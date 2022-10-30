@@ -1,0 +1,45 @@
+.home {
+    display: flex;
+    color: white;
+    padding-top: 10%;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid #ffffff;
+    border-top: 0.5px solid #ffffff;
+
+}
+
+
+.home .image {
+    background-size: 100px;
+    height: 500px;
+    width: 500px;
+
+
+
+}
+
+.home .article {
+
+    width: 600px;
+    height: 500px;
+
+}
+
+.article .firtboxtext {
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 28px;
+
+}
+
+
+
+.buttontop {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}

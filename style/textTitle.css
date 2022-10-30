@@ -1,0 +1,41 @@
+.title {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #298ac7;
+
+}
+
+.title::after {
+    content: "|";
+    margin-left: 5px;
+    color: #b9a1eb;
+
+    animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+.paragrafone {
+
+    font-size: 32px;
+    font-weight: 600;
+
+    font-style: normal;
+
+
+
+    text-transform: uppercase;
+}
