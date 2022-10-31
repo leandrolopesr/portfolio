@@ -1,4 +1,21 @@
+.img_me{
+ 
+    width: 600px;
+    height: 600px;
+   display: inline-flex;
+   align-items: center;
+   
+    
+    
+}
+
+
+
+
+
+
 .auto_self{
+    margin: 0 130px ;
     border-radius: 300px;
     transition: all 480ms ease-in-out;
 
@@ -10,4 +27,9 @@
 
 .auto_self:hover{
     box-shadow: 0 0 20px 0 #8868C8, 0 0 10px 5px #8868C8;
+}
+
+.legend{
+    margin: 50px 210px ;
+    
 }

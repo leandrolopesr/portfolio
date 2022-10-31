@@ -1,18 +1,22 @@
 .home {
-    display: flex;
+    display: inline-flex;
     color: white;
     padding-top: 10%;
     justify-content: space-evenly;
     border-bottom: 0.1px solid #ffffff;
     border-top: 0.5px solid #ffffff;
+    width: 100vw;
+    height: 740px;
+
+
 
 }
 
 
 .home .image {
     background-size: 100px;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
 
 
 
@@ -20,8 +24,9 @@
 
 .home .article {
 
+    
     width: 600px;
-    height: 500px;
+    height: 600px;
 
 }
 

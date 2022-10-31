@@ -1,0 +1,20 @@
+.text_me{
+   
+    width: 30%;
+
+    height: 70%;
+    display: block;
+    
+}
+
+.about_{
+    
+ text-align: center;
+}
+
+.text_about{
+    margin-top: 60px;
+    position: relative;
+    font-size: 1vw;
+   font-size: x-large;
+}
