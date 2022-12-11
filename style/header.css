@@ -1,54 +1,53 @@
 .header {
-    height: 60px;
-    display: flex;
-    background-color: #0d1520;
-    position: fixed;
-    width: 100%;
-    z-index: 6;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3px;
-    border-bottom: 0.5px solid #ffffff;
-
+  height: 60px;
+  display: flex;
+  background-color: #0d1520;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  border-bottom: 0.5px solid #ffffff;
 }
 
 .header .icon_header {
-
-    height: 50px;
-    padding: 0 10%;
-
-
+  height: 50px;
+  padding: 0 10%;
 }
 
 .header .navegation {
-    padding: 0 8%;
-    font-size: 20px;
+  padding: 0 8%;
+  font-size: 20px;
 }
 
 .navegation .ancor {
-   
-    color: #FFFFFF;
-    margin-left: 100px;
-    display: inline-flex;
-    align-items: center;
-    position: relative;
+  color: #FFFFFF;
+  margin-left: 100px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
 }
 
 .navegation .ancor::after {
-
-    display: inline-flex;
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background-color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-
+  display: inline-flex;
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
 }
 
 .navegation .ancor:hover::after {
-    width: 100%;
+  width: 100%;
+}
 
+/* Adicione uma media query para alterar o tamanho da fonte em resoluções de tela menores */
+@media screen and (max-width: 600px) {
+  .header .navegation {
+    font-size: 16px;  /* Diminua o tamanho da fonte em resoluções de tela menores */
+  }
 }
