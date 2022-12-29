@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leandro Lopes</title>
 
-    <link rel="stylesheet" href="./style/header.css" />
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/section.css" />
-    <link rel="stylesheet" href="./style/imageMain.css" />
-    <link rel="stylesheet" href="./style/buttons.css" />
-    <link rel="stylesheet" href="./style/textTitle.css" />
-    <link rel="stylesheet" href="./style/textabout.css" />
+  
+  <link rel="stylesheet" href="./style/sectionone/teste.css" />
+  <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/sectionone/section.css" />
+    <link rel="stylesheet" href="./style/sectiontwo/img_main.css" />
+    <link rel="stylesheet" href="./style/sectionone/buttons.css" />
+    <link rel="stylesheet" href="./style/sectionone/textTitle.css" />
+    <link rel="stylesheet" href="./style/sectiontwo/textabout.css" />
+    <link rel="stylesheet" href="./style/sectiontwo/sectiontwo.css" />
+
+    <link rel="stylesheet" href="./style/project/project.css">
+    <link rel="stylesheet" href="./style/project/slides.css">
+    
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -24,17 +31,19 @@
   </head>
   <body>
     <header class="header">
-      <img
-        class="icon_header"
-        src="../Projetinho-second/assets/Han-Solo-icon_34510.png"
-        href="#home"
-        alt=""
-      />
-      <nav class="navegation">
-        <a class="ancor" href="#home">Home</a>
-        <a class="ancor" href="">Sobre</a>
-        <a class="ancor" href="">Projetos</a>
-        <a class="ancor" href="">Contatos</a>
+      <nav>
+        <a class="logo" href="/">< L /></L></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div> 
+        </div>
+        <ul class="nav-list">
+          <li><a class="itensnav" href="/">Home</a></li>
+          <li><a class="itensnav" href="#second">Sobre</a></li>
+          <li><a class="itensnav" href="#project">Projetos</a></li>
+        
+        </ul>
       </nav>
     </header>
 
@@ -52,7 +61,7 @@
           <div class="firtboxtext">
             <p class="paragrafone">Olá, eu sou</p>
             <span class="title" id="myname">Leandro Lopes</span>
-            <p class="paragrafone">Desenvolvedor front-end</p>
+            <p class="paragrafone">Desenvolvedor back-end</p>
           </div>
 
           <div class="buttontop animate__animated animate__fadeInUp">
@@ -72,7 +81,7 @@
         </div>
       </section>
 
-      <section class="home">
+      <section id="second" class="second">
         <div class="img_me">
           <figure>
             <img
@@ -84,27 +93,57 @@
             />
             <figcaption class="legend">Rio de Janeiro - RJ</figcaption>
           </figure>
-        </div>
-        <div class="text_me">
-          <h1 class="title about_">Sobre</h1>
 
-          <p class="text_about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id
-            nobis beatae? Commodi inventore qui neque cumque maiores, non
-            molestias odit, pariatur perspiciatis fuga nisi tempora voluptas ab
-            aut exercitationem.
-          </p>
-          <br />
-          <p class="text_about">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-            minus hic necessitatibus velit, sint repudiandae? Voluptates
-            maiores, laudantium fuga veritatis ducimus molestias nihil
-            necessitatibus vitae atque, soluta accusamus quod! Repellat.
-          </p>
+          
         </div>
+       <div class="text_me">
+
+        <h1 class="about">Sobre</h1>
+
+        <p class="text_about">
+          Olá, meu nome é Leandro Lopes e comecei a estudar programação em 2021. Meu primeiro contato foi com o desenvolvimento front-end, aprendendo HTML, CSS e JavaScript.
+        </p>
+        <br>
+        <p class="text_about">Em seguida, passei a me interessar pelo back-end e atualmente estou focado em estudar Java com Spring. Também tenho conhecimento em REST API e banco de dados relacionais com MySQL.</p>
+        <br>
+         <p class="text_about">
+          Atualmente estou cursando técnico em informática no SENAC, com foco em desenvolvimento web. Estou em busca  de uma oportunidade para continuar a me desenvolver e crescer como profissional nesta área emocionante e dinâmica.
+        </p>
+
+      
+       </div>
+
+        
       </section>
+      <section id="project" class="project">
+        <h2 class="about h2">Projetos Pessoais</h2>
+        <div class="projects">
+          <div class="slide">
+            <img src="https://github.com/leandrolopesr/Steam-Card/blob/main/imagem/imagem1.jpg?raw=true" class="img_slide">
+            <h3>Steam Card</h3>
+            <p class="para">Projeto realizado com Html, css e JavaScript Vanilla</p>
+            <a href="https://steam-card-sigma.vercel.app/" class="buttonlink" target="_blank">Link</a>
+            
+          </div>
+        <div class="slide">
+          <img src="./assets/Pokemon.jpg" class="img_slide">
+          <h3>Pokedex</h3>
+          <p class="para">Projeto realizado com Html, css e JavaScript Vanilla</p>
+          <a href="https://leandrolopesr.github.io/Card_Pokemon/" class="buttonlink" target="_blank">Link</a>
+          </div>
+        <div class="slide">
+          <img src="./assets/spring.png" class="img_slide">
+          <h3>CRUD Java</h3>
+          <p class="para">Projeto realizado em Java com Spring e MySQL</p>
+          <a href="https://github.com/leandrolopesr/java-spring-crud" class="buttonlink" target="_blank">Link</a>
+          </div>
+        </div>
+        
+      </section>
+      
     </main>
 
-    <script src="./script.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/navmenu.js"></script>
   </body>
 </html>

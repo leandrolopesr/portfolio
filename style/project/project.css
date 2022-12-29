@@ -1,0 +1,16 @@
+.project{
+    display: inline-flex;
+    color: white;
+    padding-top: 1em;
+    
+    width: 100vw;
+    height: 600px;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.h2{
+    padding-top: 4em;
+}

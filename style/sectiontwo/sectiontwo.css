@@ -1,0 +1,12 @@
+.second {
+    display: inline-flex;
+    color: white;
+    padding-top: 12em;
+    
+    width: 100vw;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

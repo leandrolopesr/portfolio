@@ -1,5 +1,5 @@
 .button {
-  width: 50%;  /* Use uma medida relativa para definir o tamanho do botão */
+  width: 25%; 
   padding: 1rem 3rem;
   font-size: 23px;
   letter-spacing: 2px;
@@ -16,28 +16,36 @@
   -webkit-transition: all 150ms ease-in-out;
   transition: all 450ms ease-in-out;
 }
+@media (max-width: 450px) {
 
-/* Adicione uma media query para alterar o tamanho do botão em resoluções de tela menores */
-@media screen and (max-width: 600px) {
   .button {
-    width: 75%;  /* Aumente o tamanho do botão em resoluções de tela menores */
+    width: 50%;
+    
   }
+
+  .linkedin{
+    margin-bottom: 30px;
+  }
+
+  
 }
 
 .button:hover {
   box-shadow: 0 0 8px 0 #8868C8 inset, 0 0 8px 4px #8868C8;
 }
 
+
 .linkedin {
-  background-image: url('../assets/linkedin.png');
+  background-image: url('/assets/linkedin.png');
   background-repeat: no-repeat;
-  background-size: 22px;
+  background-size: 25px;
   background-position-x: 25px;
   background-position-y: 11px;
+
 }
 
 .github {
-  background-image: url('../assets/github.png');
+  background-image: url('/assets/github.png');
   background-repeat: no-repeat;
   background-size: 25px;
   background-position-x: 23px;

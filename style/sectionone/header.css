@@ -45,9 +45,4 @@
   width: 100%;
 }
 
-/* Adicione uma media query para alterar o tamanho da fonte em resoluções de tela menores */
-@media screen and (max-width: 600px) {
-  .header .navegation {
-    font-size: 16px;  /* Diminua o tamanho da fonte em resoluções de tela menores */
-  }
-}
+

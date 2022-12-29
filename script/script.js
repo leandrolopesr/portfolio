@@ -1,6 +1,4 @@
 
-'use strict';
-
 function typeWriter (el){
     const textArray = el.innerHTML.split('');
     el.innerHTML = '';
@@ -10,3 +8,4 @@ function typeWriter (el){
 }
 
 typeWriter(myname);
+
